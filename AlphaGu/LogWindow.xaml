@@ -1,0 +1,12 @@
+﻿<local:AlphaWindow x:Class="AlphaGu.LogWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AlphaGu"
+        mc:Ignorable="d"
+        Title="LogWindow" Height="300" Width="300" WindowStartupLocation="CenterScreen" Closed="AlphaWindow_Closed" Loaded="AlphaWindow_Loaded">
+    <Grid>
+        <ListBox x:Name="logList" Margin="10"/>
+    </Grid>
+</local:AlphaWindow>
