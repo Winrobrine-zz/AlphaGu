@@ -65,7 +65,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>AlphaGu.ico</ApplicationIcon>
@@ -181,6 +181,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="AlphaGu.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="AlphaGu.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

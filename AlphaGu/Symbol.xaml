@@ -15,6 +15,7 @@
         <EventTrigger RoutedEvent="FrameworkElement.Loaded"/>
     </UserControl.Triggers>
     <Grid>
-        <TextBlock x:Name="Number" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="32" Foreground="#FF00B0E3"/>
+        <Image Source="AlphaGu.png" Margin="20"/>
+        <TextBlock x:Name="Number" HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" FontSize="32"/>
     </Grid>
 </UserControl>
